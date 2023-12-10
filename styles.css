@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.active {
+    color: blue;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 140px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
