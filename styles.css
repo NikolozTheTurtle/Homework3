@@ -17,3 +17,42 @@ a {
     text-decoration: none;
     color: black;
 }
+.form-container {
+    max-width: 400px;
+    margin: auto;
+}
+label {
+    color: #5D5FEF;
+    font-size: 20px;
+    font-weight: 500;
+}
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    color: #5D5FEF !important;
+    font-size: 16px;
+    font-weight: 200;
+    border: 2px solid #D9D9D9;
+    padding: 20px;
+    stroke-width: 2px;
+stroke: #5D5FEF;
+}
+input:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+input:focus {
+    border: 2px #5D5FEF solid;
+}
+.btn {
+    border: 0;
+    background-color: rgb(182, 182, 182);
+    width: 100%;
+    padding: 16px 0;
+    background-color: #5D5FEF;
+    color: white;
+    border-radius: 16px;
+    cursor: pointer;
+}
